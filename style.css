@@ -1,0 +1,129 @@
+body{
+    background-color: black;
+    color: lightgray;
+    margin: 0;
+    padding: 0;
+    font-family: 'Press Start 2P';
+}
+
+#container{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#top-bar{
+    width: inherit;
+    min-height: 100px;
+    padding: 10px;
+}
+
+#plansza{
+    width: inherit;
+    font-size: 38px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+#szubienica{
+    width: 500px;
+    min-height: 280px;
+    float: left;
+}
+
+#alfabet{
+    width: 500px;
+    min-height: 280px;
+    float: left;
+}
+
+.letter{
+    float: left;
+    height: 30px;
+    width: 30px;
+    border: 3px solid lightgray;
+    border-radius: 13px;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.letter:hover{
+    background-color: lightgray;
+    color: black;
+    cursor: pointer;
+}
+
+#win{
+    color: green;
+    font-size: 35px;
+}
+
+#loss{
+    color: red;
+    font-size: 35px;
+}
+
+@keyframes pulsing{
+    0%{
+        color: white;
+        font-size: 25px;
+    }
+    100%{
+        color: blue;
+        font-size: 30px;
+    }
+}
+
+#end{
+    color: blue;
+    font-size: 25px;
+    transform-origin: 0 0;
+    animation: pulsing .5s ease-in-out infinite alternate;
+}
+
+#end:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.category{
+    width: 350px;
+    height: 30px;
+    padding: 5px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid lightgray;
+    vertical-align: middle;
+}
+
+.category>p{
+    margin: 0;
+    padding: 4;
+}
+
+.category:hover{
+    background-color: lightgray;
+    color: black;
+    cursor: pointer;
+}
+
+#select{
+    font-size: 25px;
+}
+
+#kategoria{
+    margin-top: 33%;
+    font-size: 25px;
+}
+
+#menu{
+    color: hotpink;
+    cursor: pointer;
+}
+
+#menu:hover{
+    color: aqua;
+}
